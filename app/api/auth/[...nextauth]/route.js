@@ -13,6 +13,15 @@ const handler = NextAuth({
         clientSecret: process.env.GITHUB_SECRET
       })
   ],
+  callbacks: {
+    async redirect({ user, baseUrl }) {
+      if (user) {
+        const baseUrl = "/dashboard"
+        return baseUrl
+      }
+      return baseUrl
+    },
+  },
 })
 
 export { handler as GET, handler as POST }
