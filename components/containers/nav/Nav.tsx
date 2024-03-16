@@ -1,22 +1,34 @@
 'use client'
 
-import { useSession, signIn, signOut} from "next-auth/react"
+import { useSession, signIn, signOut } from "next-auth/react"
 
 export default function Nav() {
-    const {data: session } = useSession();
-
+    const { data: session, status  } = useSession();
     if (session) {
-        return(
+        return (
             <div>
-                <button onClick={() => signOut()}>Salir</button>
+                <button 
+                className="rounded-lg text w-16 h-8 bg-color2 text-color17 justify-center 
+                hover:bg-color10"
+                onClick={() => signOut()}>Salir</button>
             </div>
         )
     }
 
-    if (!session){
-        return(
+    if (status === "loading") {
+        return (
             <div>
-                <button onClick={() => signIn()}>Iniciar</button>
+                <button className="rounded-lg p-1 bg-color2 text-color17 justify-center 
+                hover:bg-color10" >Cargando ...</button>
+            </div>
+        )
+    }
+
+    if (!session) {
+        return (
+            <div>
+                <button className="rounded-lg text  w-16 h-8 bg-color2 text-color17 justify-center 
+                hover:bg-color10" onClick={() => signIn()}>Iniciar</button>
             </div>
         )
     }

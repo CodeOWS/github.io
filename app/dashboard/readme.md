@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+//import "./globals.css";
+import "@/app/globals.css";
 import SessionProvider from "@/context/SessionAuthProvider";
+import Header from "@/components/containers/headers/header";
+import Foother from "@/components/containers/foothers/foother"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <SessionProvider>
-      <html lang="es" >
-        <body className="min-h-screen flex flex-col text-color1 dark:text-color17 bg-imag-ligt dark:bg-imag-dark bg-no-repeat bg-cover bg-center h-screen">
-          {children}
-        </body>
-      </html>
+    <html lang="es" >
+      <body className="min-h-screen flex flex-col bg-color17 text-color1 dark:bg-color1 dark:text-color17">
+      <Header/>
+      {children}
+      <Foother />
+      </body>
+    </html>
     </SessionProvider>
   );
 }

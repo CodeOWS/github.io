@@ -26,7 +26,7 @@ export default function Theme() {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-8 h-8"
+            className="w-20 h-20 hover:opacity-50"
           >
             <path
               strokeLinecap="round"
@@ -41,7 +41,7 @@ export default function Theme() {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-8 h-8"
+            className="w-20 h-20 hover:opacity-50"
           >
             <path
               strokeLinecap="round"

@@ -29,9 +29,8 @@ const config: Config = {
         color17: "#C8ECD5"
     },    
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "imag-dark": "url('/oscuro.jpeg')",
+        "imag-ligt": "url('/claro.jpeg')",
       },
     },
   },
