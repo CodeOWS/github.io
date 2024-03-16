@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import Theme from "@/components/button/theme";
+import Theme from "@/components/button/mini_theme";
 import Nav from "@/components/containers/nav/Nav";
 import { LogoHeader } from "@/components/imgs/logo";
 
