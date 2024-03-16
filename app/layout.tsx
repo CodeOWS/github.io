@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SessionProvider from "@/context/SessionAuthProvider";
-import Foother from "@/components/containers/foothers/foother";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,7 +31,6 @@ export default function RootLayout({
         dark:from-color1
         dark:to-color2">
           {children}
-          <Foother />
         </body>
       </html>
     </SessionProvider>
