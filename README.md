@@ -1,9 +1,9 @@
 
 <h1>Code Organizacion  Web Studio</h1>
 
-<p>Actualmente se Encuentra En Desarrollo</p>
+<p> Actualmente se Encuentra En Desarrollo</p>
 
-<a herf="https://code-ows.netlify.app/">Visitar </a>
+<a> Visitar : https://code-ows.netlify.app/ </a>
 
 <h3 align="left">Lenguaje y Herramientas:</h3>
 <br/>

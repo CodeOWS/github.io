@@ -19,7 +19,10 @@ export default function Menu() {
     <div className="h-screen flex items-center justify-center relative ">
       {menuVisible && (
         <div className="bg-black bg-opacity-20 p-20 rounded-lg dark:bg-white dark:bg-opacity-20">
+          
           <div className="grid grid-cols-3 gap-10">
+          <div className="col-span-3 justify-center text-center text-5xl font-bold text-color17"> <h1>Code OWS</h1> </div>
+          <div className="col-span-3 justify-center text-center text-1xl font-bold text-color17"> <h1>Oganizacion Web Studio</h1> </div>
             {/* Home */}
             <Link href="/">
               <div className="w-20 h-20">

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+<!-- import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 //import "./globals.css";
 import "@/app/globals.css";
@@ -22,11 +22,11 @@ export default function RootLayout({
     <SessionProvider>
     <html lang="es" >
       <body className="min-h-screen flex flex-col bg-color17 text-color1 dark:bg-color1 dark:text-color17">
-      <Header/>
+      <Header />
       {children}
       <Foother />
       </body>
     </html>
     </SessionProvider>
   );
-}
+} -->
