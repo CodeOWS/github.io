@@ -67,7 +67,7 @@ export default function Foother() {
       </svg>
     </Link>
     <Link
-      href="#!"
+      href=""
       className="mr-6 text-neutral-600 dark:text-neutral-200"
     >
       <svg
@@ -79,7 +79,7 @@ export default function Foother() {
         <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
       </svg>
     </Link>
-    <Link href="#!" className="text-neutral-600 dark:text-neutral-200">
+    <Link href="https://github.com/CodeOWS" target="_blank" className="text-neutral-600 dark:text-neutral-200">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-4 w-4"
@@ -111,7 +111,7 @@ export default function Foother() {
 
       <Link
         className="font-semibold text-neutral-600 dark:text-neutral-400"
-        href="https://tw-elements.com/"
+        href="#"
       >
         Code Organization Web Studio
       </Link>

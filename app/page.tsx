@@ -3,7 +3,6 @@
 import Menu from "@/components/containers/menu/menu"
 import { useState } from "react";
 import Image from "next/image";
-import Foother from "@/components/containers/foothers/foother"
 
 export default function Home() {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -35,6 +34,7 @@ export default function Home() {
             alt="LogoTipo"
             width={50}
             height={50}
+            priority={true}
             className={`hover:opacity-50 p-1 flex rounded-full border-1 justify-center items-center h-18 w-18 ${
               menuVisible ? "border-2" : "border-color17"
             }`}

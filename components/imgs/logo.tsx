@@ -5,10 +5,10 @@ export function LogoHeader() {
     <Image 
     src="/Logo.jpg"
     title="Logo OWS"
-    width={1024}
-    height={1024}
+    width={60}
+    height={60}
     alt="Logo"
-    className=" border-solid rounded-full w-10 h-10 border-collapse"
+    className=" border-solid rounded-full border-collapse"
     />
   )
 }
